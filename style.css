@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 153, 255);
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+#heading {
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+#intro-message {
+    font-size: 1.5rem;
+    margin: 2rem;
+    color: rgb(0, 0, 153);
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.5rem;
+    margin-top: 5rem;
+}
+
+.btn {
+    width: 175px;
+    height: 80px;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 102);
+    border: 1px solid grey;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 153);
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: translateY(3px);
+}
+
+.fa-regular {
+    margin-left: 1rem;
+}
+
+.score-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+    color: whitesmoke;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    padding: 0.5rem 0;
+    background: inherit;
+    border: 1px solid red;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+#comment {
+    font-size: 1.7rem;
+    margin-top: 3rem;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin-bottom: 6rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
